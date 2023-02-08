@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">COURSE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificates & Online Programs</h1>
+    </section>
+
+<!-- ----------Blog page content---------- -->
+
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="certificate">
+                <h2>Our Certificates & Online Programs</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit cumque possimus nostrum, earum iusto suscipit, optio provident iure tenetur nulla dolor iste distinctio tempore consequuntur temporibus eius modi repudiandae corrupti! Laborum tempore error nemo blanditiis possimus nihil labore aperiam porro iusto excepturi earum ullam odit similique, tenetur culpa cumque, nisi impedit quam sint vel harum! Ipsam saepe vel reprehenderit cupiditate, nemo dicta iste delectus tempore perferendis inventore suscipit sapiente earum deserunt ex quod tempora nulla ipsum dolorum minus vero laborum amet quaerat aliquam. Mollitia praesentium sunt, nihil officia in quod optio incidunt dolorum magni quasi debitis tempora tenetur et laboriosam.</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit odio quas beatae recusandae ab soluta quam, laboriosam suscipit praesentium. Reprehenderit, sequi rem ducimus doloribus sint, soluta recusandae expedita quisquam odit repellat enim maiores deserunt atque ipsam. Eum, veniam? Placeat ea ipsum possimus optio maiores veritatis architecto suscipit, molestias voluptates. Ex architecto veritatis harum vel sit aliquam? Quas non et eveniet quia quos aut doloremque obcaecati in beatae asperiores, tempora provident magnam eaque molestiae quibusdam maiores pariatur numquam ipsum eligendi corporis!.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repudiandae officia quos cupiditate. Dolore, animi explicabo veniam nostrum voluptas praesentium sunt, at reprehenderit eaque, eligendi vitae aut voluptates eveniet! Qui neque dolor minus assumenda, commodi magni dolorum hic, quia aspernatur, nulla tempore tenetur perferendis facere quibusdam sit? Vel at nulla fugiat qui quis aperiam sapiente ab assumenda illum. Recusandae voluptatum quam cum fugit, consequatur error modi perferendis molestias repudiandae quasi odit dolorem cupiditate officia nobis excepturi tempora quo sunt doloribus corporis quaerat minima, maiores natus similique nostrum. Iste rem, ab et sunt sit vitae exercitationem obcaecati quam veniam rerum assumenda ducimus illo repellat esse molestiae aperiam. Voluptatibus deleniti fuga saepe eius quia non culpa aliquam, cum nihil iusto officia voluptatum, blanditiis inventore cupiditate iste debitis sint eum? Iste sapiente est in cupiditate, quidem optio animi unde ducimus ipsam reiciendis nisi atque at doloribus, nam nostrum temporibus sit eius saepe quos.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptate beatae eos quis ex totam veritatis cupiditate vero obcaecati perferendis dolores, qui debitis rem ducimus animi expedita. Tempora, ipsa culpa.</p>
+
+                <div class="comment-box">
+
+                    <h3>Leave a Comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Email Address">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="sumbit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>18</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>36</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus consequatur animi amet obcaecati voluptate consequuntur in perspiciatis sit esse eum.<br> Et, officia enim. Dolor aliquid voluptatem culpa, neque dignissimos atque.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Nitya Corperation</p>
+    </section>
+
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
